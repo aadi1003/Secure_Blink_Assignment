@@ -6,13 +6,13 @@ export const sendEmail = async (to, subject, text) => {
     host: config.EMAIL_HOST || "smtp.gmail.com" ,
     port: config.EMAIL_PORT || 465,
     auth: {
-      user: config.EMAIL_USER || "aditya10wani@gmail.com",
-      pass: config.EMAIL_PASS || "vryweauysrsjooiw",
+      user: config.EMAIL_USER || "your email id (sender)",
+      pass: config.EMAIL_PASS || "mail app password (sender)",
     },
   });
 
   await transporter.sendMail({
-    from: config.EMAIL_USER || "aditya10wani@gmail.com",
+    from: config.EMAIL_USER || "your email id (sender)",
     to,
     subject,
     text,
