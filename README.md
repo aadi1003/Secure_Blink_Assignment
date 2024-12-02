@@ -16,6 +16,7 @@
 
 <br/>
 <h3>Api Created in project:-</h3>
+<hr/>
 <ul>
   <li>Register User</li>
   <li>Login User</li>
