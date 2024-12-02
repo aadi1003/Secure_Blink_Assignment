@@ -1,0 +1,6 @@
+2024-12-02 00:18:25 [ERROR]: uncaughtException: userRoutes is not defined
+ReferenceError: userRoutes is not defined
+    at file:///D:/Secure_Blink/app.js:19:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
