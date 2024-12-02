@@ -13,7 +13,7 @@
 
 <p>Step 3 :- Run "npm run dev" to start backend</p>
 
-<p>Step 4 :- Execute Step 2 & 3 for frontend . NOTE: Frontend is only linited for Reset Password page .</p>
+<p>Step 4 :- Execute Step 2 & 3 for frontend . NOTE: Frontend is only limited for Reset Password page .</p>
 
 <br/>
 <h3>Api Created in project:-</h3>
