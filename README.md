@@ -136,6 +136,45 @@
 <ol>
   <li>bcrypt js</li>
   <p>bcryptjs is used to securely hash user passwords before storing them in the database. It adds a cryptographic salt to the password, making it resistant to         common attacks like rainbow table and brute force. This ensures that even if the database is compromised, user passwords remain protected.</p>
+  <br/>
+  <li>cors</li>
+  <p>cors (Cross-Origin Resource Sharing) is used to enable secure communication between the server and a frontend hosted on a different domain. It controls which   domains can access the server, helping prevent unauthorized requests and ensuring the application adheres to web security standards when serving APIs to           external clients.</p>
+  <br/>
+  <li>crypto</li>
+  <p>crypto is used in Node.js for cryptographic operations such as generating secure random tokens, encrypting data, and creating hashes. It ensures data              integrity and security, making it useful for tasks like password resets, API key generation, and securing sensitive operations within the application.</p>
+  <br/>
+  <li>dotenv</li>
+  <p>dotenv is used to load environment variables from a .env file into the application. It keeps sensitive data like API keys, database credentials, and JWT secrets secure by separating them from the codebase. This makes the application more secure, configurable, and easier to deploy across environments.</p>
+  <br/>
+  <li>express</li>
+  <p>express is used to build the server and manage HTTP requests and responses efficiently. It provides a robust framework for creating APIs and web applications with middleware support, routing capabilities, and integration with third-party libraries. This simplifies the development process and ensures scalability and maintainability of the application.</p>
+  <br/>
+  <li>express-rate-limit</li>
+  <p>express-rate-limit is used to limit the number of requests a client can make to the server within a specified time. It helps prevent abuse, such as brute-force attacks or denial-of-service (DoS) attacks, by throttling excessive requests, ensuring better security, and maintaining server stability under heavy load.</p>
+  <br/>
+  <li>helmet</li>
+  <p>helmet is used to enhance security in Express applications by setting various HTTP headers. It helps prevent common vulnerabilities like Cross-Site Scripting (XSS), Clickjacking, and MIME type sniffing. By configuring these headers, helmet ensures the application is more resistant to web-based attacks and adheres to best security practices.
+</p>
+  <br/>
+  <li>jsonwebtoken</li>
+  <p>jsonwebtoken is used to create and verify JSON Web Tokens (JWTs) for secure user authentication. It enables stateless authentication by encoding user information in a token, which is then sent with each request. This ensures secure access control and session management without storing session data on the server.</p>
+  <br/>
+  <li>mongoose</li>
+  <p>mongoose is used to interact with MongoDB databases in a more structured and efficient way. It provides a schema-based solution to model data, offers built-in validation, and simplifies database operations like querying, inserting, and updating. It streamlines the database management process in Node.js applications.
+</p>
+  <br/>
+  <li>nodemailer</li>
+  <p>nodemailer is used to send emails from a Node.js application. It facilitates email functionality like password reset links, notifications, and user confirmations. By supporting various email services, nodemailer enables secure and reliable email delivery, crucial for features like account verification and communication with users.
+</p>
+  <br/>
+  <li>nodemon</li>
+  <p>nodemon is used during development to automatically restart the server whenever code changes are made. This improves the development workflow by eliminating the need to manually stop and restart the server, saving time and ensuring that changes are immediately reflected without requiring manual intervention.
+</p>
+  <br/>
+  <li>winston</li>
+  <p>winston is used for logging in Node.js applications. It provides flexible logging options, allowing logs to be stored in different formats (e.g., JSON, plain text) and outputs (e.g., console, files). It helps track application activities, errors, and security events, ensuring better debugging and monitoring in production environments.
+</p>
+  <br/>
 </ol>
 
 
