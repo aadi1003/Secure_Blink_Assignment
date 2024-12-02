@@ -130,5 +130,12 @@
   <li>Click on send , Your will receive a succesfull response if you are admin , else the access will be denied</li>
 </ul>
 
+<br/>
+<br/>
+<h2>Libraries Used :-</h2>
+<ol>
+  <li>bcrypt js</li>
+  <p>bcryptjs is used to securely hash user passwords before storing them in the database. It adds a cryptographic salt to the password, making it resistant to         common attacks like rainbow table and brute force. This ensures that even if the database is compromised, user passwords remain protected.</p>
+</ol>
 
 
