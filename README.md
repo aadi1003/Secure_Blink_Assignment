@@ -107,8 +107,28 @@
 
 
 
+<br/>
+
+<h2>User Profile Api</h2>
+<ul>
+  <li>This can be used by any role whether it is user or admin</li>
+  <li>API Request Method :-  GET</li>
+  <li>url:- http://localhost:5000/api/user/profile</li>
+  <h5>You have to pass token in  "Authorization => AuthType = Bearer Token , Then paste the token"</h5>
+  <li>Click on send , Your will receive a id , role , message in response</li>
+</ul>
 
 
+<br/>
+
+<h2>Admin Api</h2>
+<ul>
+  <li>This can be used by only Admin (This is a restricted route)</li>
+  <li>API Request Method :-  GET</li>
+  <li>url:- http://localhost:5000/api/user/admin</li>
+  <h5>You have to pass token in  "Authorization => AuthType = Bearer Token , Then paste the token"</h5>
+  <li>Click on send , Your will receive a succesfull response if you are admin , else the access will be denied</li>
+</ul>
 
 
 
