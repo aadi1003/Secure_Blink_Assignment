@@ -53,6 +53,7 @@
   <li>API Request Method :-  POST</li>
   <li>url:- http://localhost:5000/api/auth/login</li>
   <h5>You have to pass email ,password  in the  "Body => raw" </h5>
+  <li>Note :- Mention the email & password by which you have registered</li>
   <li>
     {
     "email":"your email id",
@@ -61,6 +62,28 @@
   </li>
   <li>Click on send , Your will receive a token upon sucessfull login</li>
 </ul>
+
+
+<br/>
+
+<h2>Forgot Password</h2>
+<ul>
+  <li>API Request Method :-  POST</li>
+  <li>url:- http://localhost:5000/api/auth/forgot-password</li>
+  <h5>You have to pass email  in the  "Body => raw" </h5>
+  <li>Note :- Mention the email by which you have registered</li>
+  <li>
+    {
+    "email":"your email id",
+   }
+  </li>
+  <li>Click on send , Your will receive a link via email for forgot password.</li>
+  <li>Copy the link & use it on your local host </li>
+  <li>Enter the new Password & confirm Password</li>
+  <li>Click on Reset , hence the password will reset succesfully</li>
+  <li>Note :-  To cross verify , go to login api & send the request using old password , it will not generate the token</li>
+</ul>
+
 
 
 
