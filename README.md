@@ -57,7 +57,7 @@
   <li>
     {
     "email":"your email id",
-    "password":"abcd1234",
+    "password":"abcd1234"
     }
   </li>
   <li>Click on send , Your will receive a token upon sucessfull login</li>
@@ -74,7 +74,7 @@
   <li>Note :- Mention the email by which you have registered</li>
   <li>
     {
-    "email":"your email id",
+    "email":"your email id"
    }
   </li>
   <li>Click on send , Your will receive a link via email for forgot password.</li>
@@ -82,6 +82,27 @@
   <li>Enter the new Password & confirm Password</li>
   <li>Click on Reset , hence the password will reset succesfully</li>
   <li>Note :-  To cross verify , go to login api & send the request using old password , it will not generate the token</li>
+</ul>
+
+
+
+
+<br/>
+
+<h2>Reset Password</h2>
+<p>There is no need to test the api , because if you succesfully done with forgot password api, then this is working because the same reset password api is integrated in backend for reset password page</p>
+<p>If you want to change the password manually the you can use this api</p>
+<h5>Steps to check api manually :-</h5>
+<ul>
+  <li>API Request Method :-  POST</li>
+  <li>url:- http://localhost:5000/api/auth/reset-password/"token"</li>
+  <h5>You have to pass newPassword  in the  "Body => raw" </h5>
+  <li>
+    {
+    "newPassword":"efgh5678"
+    }
+  </li>
+  <li>Click on send , Password will reset successfully</li>
 </ul>
 
 
