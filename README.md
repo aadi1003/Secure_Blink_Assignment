@@ -46,6 +46,22 @@
   <li>Click on send , Your will be succesfully register</li>
 </ul>
 
+<br/>
+
+<h2>Login User</h2>
+<ul>
+  <li>API Request Method :-  POST</li>
+  <li>url:- http://localhost:5000/api/auth/login</li>
+  <h5>You have to pass email ,password  in the  "Body => raw" </h5>
+  <li>
+    {
+    "email":"your email id",
+    "password":"abcd1234",
+    }
+  </li>
+  <li>Click on send , Your will receive a token upon sucessfull login</li>
+</ul>
+
 
 
 
