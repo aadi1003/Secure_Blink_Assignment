@@ -1,4 +1,5 @@
 <h2>Prerequisute</h2>
+<hr/>
 <ul>
   <li>VS CODE IDE</li>
   <li>Install Node Js latest</li>
@@ -23,5 +24,31 @@
   <li>Forgot Password</li>
   <li>Reset Password</li>
   <li>User Profile</li>
-  <li>Admin Route</li>
+  <li>Admin Route (Only admin can access it)</li>
 </ul>
+
+<br/>
+<h3>Step to test api on Postman</h3>
+<hr/>
+
+<h2>Register User</h2>
+<ul>
+  <li>API Request Method :-  POST</li>
+  <li>url:- http://localhost:5000/api/auth/register</li>
+  <h5>You have to pass email ,password ,role in the  "Body => raw" </h5>
+  <li>
+    {
+    "email":"your email id",
+    "password":"abcd1234",
+    "role":"user" or "admin"
+    }
+  </li>
+  <li>Click on send , Your will be succesfully register</li>
+</ul>
+
+
+
+
+
+
+
